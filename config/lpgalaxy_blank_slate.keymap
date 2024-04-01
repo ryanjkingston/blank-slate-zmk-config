@@ -74,7 +74,7 @@
 #ifdef QWERTY_BASE
  &kp TAB    &kp Q      &kp W      &kp E       &kp R          &kp T          &kp Y            &kp U          &kp I       &kp O      &kp P         &kp BKSP
  &kp LCTRL  &kp A      &kp S      &kp D       &kp F          &kp G          &kp H            &kp J          &kp K       &kp L      &kp SEMI      &kp QUOT
- &kp LSHFT  &kp Z      &kp X      &kp C       &kp V          &kp B          &kp N            &kp M          &kp COMMA   &kp DOT    &kp FSLH      &kp RET
+ &kp LSHFT  &kp Z      &kp X      &kp C       &kp V          &kp B          &kp N            &kp M          &kp COMMA   &kp DOT    &kp FSLH      &kp DEL
 #else
  &kp TAB    &kp Q      &kp W      &kp F       &kp P          &kp B          &kp J            &kp L          &kp U       &kp Y      &kp QUOT      &kp BKSP
  &kp LCTRL  &kp A      &kp R      &kp S       &kp T          &kp G          &kp M            &kp N          &kp E       &kp I      &kp O         &kp QUOT
@@ -93,9 +93,9 @@
         nav_layer {
             label = "Nav";
             bindings = <
-&bt BT_CLR &trans     &trans     &trans      &trans          &trans       &trans     &trans         &trans      &trans     &trans     &kp DEL
-&trans     &trans     &trans     &trans      &trans          &trans       &trans     &kp LEFT       &kp DOWN    &kp UP     &kp RIGHT  &trans
-&trans     &bt BT(0)  &bt BT(1)  &bt BT(2)   &bt BT(3)       &bt BT(4)    &trans     &kp HOME       &kp PG_DN   &kp PG_UP  &kp END    &trans
+&kp ESC    &kp EXLM   &kp AT &kp HASH &kp DLR &kp PERC    &kp CIRC      &kp AMPR   &kp ASTR    &kp LPRN     &kp RPRN   &kp TILD
+&trans     &kp F1     &kp F2 &kp F3 &kp F4    &kp F5      &kp F6        &kp LEFT   &kp UP      &kp DOWN     &RIGHT     &trans
+&trans     &kp F7     &kp F8 &kp F9 &kp F10   &kp F11     &kp F12       &kp UNDS   &kp PLUS    &kp LCBR     &kp RCBR    &trans
 #ifdef TBLE_DUAL_2U
 &trans  &trans        &trans     &trans              &trans                    &trans       &trans         &trans &trans &trans
 #elif defined(TBLE_MIT)
@@ -109,9 +109,9 @@
         num_layer {
             label = "Num";
             bindings = <
-&kp ESC    &kp N1     &kp N2 &kp N3 &kp N4    &kp N5      &kp N6        &kp N7     &kp N8      &kp N9       &kp N0     &trans
-&trans     &kp F1     &kp F2 &kp F3 &kp F4    &kp F5      &kp F6        &kp N4     &kp N5      &kp N6       &trans     &trans
-&trans     &kp F7     &kp F8 &kp F9 &kp F10   &kp F11     &kp F12       &kp N1     &kp N2      &kp N3       &trans     &trans
+&kp ESC    &kp N1     &kp N2 &kp N3 &kp N4    &kp N5      &kp N6        &kp N7     &kp N8      &kp N9       &kp N0     &kp GRV
+&trans     &kp F1     &kp F2 &kp F3 &kp F4    &kp F5      &kp F6        &kp LEFT   &kp UP      &kp DOWN     &RIGHT     &trans
+&trans     &kp F7     &kp F8 &kp F9 &kp F10   &kp F11     &kp F12       &kp MINS   &kp EQL     &kp LBRC     &kp RBRC   &trans
 #ifdef TBLE_DUAL_2U
 &trans  &trans       &trans     &kp N0              &trans                 &trans            &trans         &trans &trans &trans
 #elif defined(TBLE_MIT)
