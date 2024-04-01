@@ -93,7 +93,7 @@
         nav_layer {
             label = "Nav";
             bindings = <
-&kp ESC    &kp EXLM   &kp AT &kp HASH &kp DLR &kp PERC    &kp CIRC      &kp AMPR   &kp ASTR    &kp LPRN     &kp RPRN   &kp TILD
+&kp ESC    &kp EXCL   &kp AT &kp HASH &kp DLLR &kp PRCNT    &kp CARET   &kp AMPS   &kp STAR    &kp LPAR     &kp RPAR   &kp TILDE
 &trans     &kp F1     &kp F2 &kp F3 &kp F4    &kp F5      &kp F6        &kp LEFT   &kp UP      &kp DOWN     &RIGHT     &trans
 &trans     &kp F7     &kp F8 &kp F9 &kp F10   &kp F11     &kp F12       &kp UNDS   &kp PLUS    &kp LCBR     &kp RCBR    &trans
 #ifdef TBLE_DUAL_2U
@@ -109,7 +109,7 @@
         num_layer {
             label = "Num";
             bindings = <
-&kp ESC    &kp N1     &kp N2 &kp N3 &kp N4    &kp N5      &kp N6        &kp N7     &kp N8      &kp N9       &kp N0     &kp GRV
+&kp ESC    &kp N1     &kp N2 &kp N3 &kp N4    &kp N5      &kp N6        &kp N7     &kp N8      &kp N9       &kp N0     &kp GRAVE
 &trans     &kp F1     &kp F2 &kp F3 &kp F4    &kp F5      &kp F6        &kp LEFT   &kp UP      &kp DOWN     &RIGHT     &trans
 &trans     &kp F7     &kp F8 &kp F9 &kp F10   &kp F11     &kp F12       &kp MINS   &kp EQL     &kp LBRC     &kp RBRC   &trans
 #ifdef TBLE_DUAL_2U
