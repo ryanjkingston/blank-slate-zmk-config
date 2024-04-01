@@ -93,8 +93,8 @@
         nav_layer {
             label = "Nav";
             bindings = <
-&kp ESC    &kp EXCL   &kp AT &kp HASH &kp DLLR &kp PRCNT    &kp CARET   &kp AMPS   &kp STAR    &kp LPAR     &kp RPAR   &kp TILDE
-&trans     &kp F1     &kp F2 &kp F3 &kp F4    &kp F5      &kp F6        &kp LEFT   &kp UP      &kp DOWN     &RIGHT     &trans
+&kp ESC    &kp EXCL   &kp AT &kp HASH &kp DLLR &kp PRCNT  &kp CARET     &kp AMPS   &kp STAR    &kp LPAR     &kp RPAR    &kp TILDE
+&trans     &kp F1     &kp F2 &kp F3 &kp F4    &kp F5      &kp F6        &kp LEFT   &kp UP      &kp DOWN     &kp RIGHT   &trans
 &trans     &kp F7     &kp F8 &kp F9 &kp F10   &kp F11     &kp F12       &kp UNDS   &kp PLUS    &kp LCBR     &kp RCBR    &trans
 #ifdef TBLE_DUAL_2U
 &trans  &trans        &trans     &trans              &trans                    &trans       &trans         &trans &trans &trans
