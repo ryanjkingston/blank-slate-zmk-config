@@ -72,13 +72,13 @@
             label = "Base";
             bindings = <
 #ifdef QWERTY_BASE
+ &kp TAB    &kp Q      &kp W      &kp F       &kp P          &kp G          &kp J            &kp L          &kp U       &kp Y      &kp SEMI      &kp BKSP
+ &kp LCTRL  &kp A      &kp R      &kp S       &kp T          &kp D          &kp H            &kp N          &kp E       &kp I      &kp O         &kp QUOT
+ &kp LSHFT  &kp Z      &kp X      &kp C       &kp V          &kp B          &kp K            &kp M          &kp COMMA   &kp DOT    &kp FSLH      &kp DEL
+#else
  &kp TAB    &kp Q      &kp W      &kp E       &kp R          &kp T          &kp Y            &kp U          &kp I       &kp O      &kp P         &kp BKSP
  &kp LCTRL  &kp A      &kp S      &kp D       &kp F          &kp G          &kp H            &kp J          &kp K       &kp L      &kp SEMI      &kp QUOT
  &kp LSHFT  &kp Z      &kp X      &kp C       &kp V          &kp B          &kp N            &kp M          &kp COMMA   &kp DOT    &kp FSLH      &kp DEL
-#else
- &kp TAB    &kp Q      &kp W      &kp F       &kp P          &kp B          &kp J            &kp L          &kp U       &kp Y      &kp QUOT      &kp BKSP
- &kp LCTRL  &kp A      &kp R      &kp S       &kp T          &kp G          &kp M            &kp N          &kp E       &kp I      &kp O         &kp QUOT
- &kp LSHFT  &kp Z      &kp X      &kp C       &kp D          &kp V          &kp K            &kp H          &kp COMMA   &kp DOT    &kp SEMI      &kp RET
 #endif
 #ifdef TBLE_DUAL_2U
  &kp LCTRL  &kp LGUI   &kp LALT   &mo NAV_L         &shifty                        &kp SPACE                &mo NUM_L   &kp LALT   &kp RGUI      &kp RSHIFT
@@ -94,7 +94,7 @@
             label = "Nav";
             bindings = <
 &kp ESC    &kp EXCL   &kp AT &kp HASH &kp DLLR &kp PRCNT  &kp CARET     &kp AMPS   &kp STAR    &kp LPAR     &kp RPAR    &kp TILDE
-&trans     &kp F1     &kp F2 &kp F3 &kp F4    &kp F5      &kp F6        &kp LEFT   &kp UP      &kp DOWN     &kp RIGHT   &trans
+&trans     &kp F1     &kp F2 &kp F3 &kp F4    &kp F5      &kp F6        &kp LEFT   &kp UP      &kp DOWN     &kp RIGHT   &kp PIPE
 &trans     &kp F7     &kp F8 &kp F9 &kp F10   &kp F11     &kp F12       &kp UNDER  &kp PLUS    &kp LBKT     &kp RBKT    &trans
 #ifdef TBLE_DUAL_2U
 &trans  &trans        &trans     &trans              &trans                    &trans       &trans         &trans &trans &trans
@@ -110,7 +110,7 @@
             label = "Num";
             bindings = <
 &kp ESC    &kp N1     &kp N2 &kp N3 &kp N4    &kp N5      &kp N6        &kp N7     &kp N8      &kp N9       &kp N0     &kp GRAVE
-&trans     &kp F1     &kp F2 &kp F3 &kp F4    &kp F5      &kp F6        &kp LEFT   &kp UP      &kp DOWN     &kp RIGHT  &trans
+&trans     &kp F1     &kp F2 &kp F3 &kp F4    &kp F5      &kp F6        &kp LEFT   &kp UP      &kp DOWN     &kp RIGHT  &kp BSLH
 &trans     &kp F7     &kp F8 &kp F9 &kp F10   &kp F11     &kp F12       &kp MINUS  &kp EQUAL   &kp LBRC     &kp RBRC   &trans
 #ifdef TBLE_DUAL_2U
 &trans  &trans       &trans     &kp N0              &trans                 &trans            &trans         &trans &trans &trans
